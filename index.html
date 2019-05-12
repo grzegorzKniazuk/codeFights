@@ -8,25 +8,6 @@
 
 </body>
 <script>
-    function containsDuplicates(a) {
-        for (element of a) {
-            if (a.indexOf(element) !== a.lastIndexOf(element)) return true;
-            a.shift();
-        }
-<<<<<<< HEAD
-        return true;
-=======
-        return false;
-    }
-
-    function containsDuplicates(a) {
-        let unique = [...new Set(a)];
-        return unique.length === a.length;
->>>>>>> 69ce13f258ea6f50549daf86b6b87f7722931870
-    }
-
-    console.log(containsDuplicates([1, 2, 3, 1]));
-    console.log(containsDuplicates([1, 2, 3, 4]));
 
 </script>
 </html>
